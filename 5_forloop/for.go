@@ -35,4 +35,10 @@ func main() {
 		fmt.Println(i)
 
 	}
+
+	// golang 1.22 me range ka concept introduce hua hai
+	// range me 0 se start krega and last wale ko exclude krega
+	for i := range 10 {
+		fmt.Println(i)
+	}
 }
