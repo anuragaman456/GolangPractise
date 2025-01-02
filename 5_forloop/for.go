@@ -21,4 +21,18 @@ func main() {
 	for i := 1; i <= 10; i++ {
 		fmt.Println(i)
 	}
+
+	// added continue( to skip some value or iteration ) in loop
+	// added break to end the loop
+	for i := 100; i <= 110; i++ {
+		if i == 101 {
+			continue
+		}
+		if i == 108 {
+			fmt.Println(i)
+			break
+		}
+		fmt.Println(i)
+
+	}
 }
