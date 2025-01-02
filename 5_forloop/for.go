@@ -9,4 +9,11 @@ func main() {
 		fmt.Println(i)
 		i = i + 1
 	}
+
+	//create infinite loop
+
+	for {
+		fmt.Println(1)
+	}
+
 }
