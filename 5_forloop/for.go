@@ -12,8 +12,13 @@ func main() {
 
 	//create infinite loop
 
-	for {
-		fmt.Println(1)
-	}
+	// for {
+	// 	fmt.Println(1)
+	// }
 
+	// classic for loop used in programming
+
+	for i := 1; i <= 10; i++ {
+		fmt.Println(i)
+	}
 }
