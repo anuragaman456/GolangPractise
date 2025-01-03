@@ -25,4 +25,14 @@ func main() {
 		fmt.Println("Access Denied!")
 	}
 
+	// you can declare variable inside if also
+
+	if age := 13; age >= 18 {
+		fmt.Println("Hello There You are adult, your age is:", age)
+	} else if age > 10 {
+		fmt.Println("Hello there you are Teenager, your age is:", age)
+	} else {
+		fmt.Println("Hello There you are Kid, your age is:", age)
+	}
+
 }
