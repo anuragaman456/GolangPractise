@@ -13,4 +13,16 @@ func main() {
 	} else {
 		fmt.Println("Hello buddy you are a kid")
 	}
+
+	// include logical operator inside if else condition
+
+	Role := "admin"
+	Access := true
+
+	if Role == "admin" && Access == true {
+		fmt.Println("Access Allowed")
+	} else {
+		fmt.Println("Access Denied!")
+	}
+
 }
