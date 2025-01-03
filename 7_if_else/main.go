@@ -35,4 +35,6 @@ func main() {
 		fmt.Println("Hello There you are Kid, your age is:", age)
 	}
 
+	// there is no concept of ternary operaotor in Golang
+
 }
