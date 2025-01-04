@@ -1,10 +1,11 @@
-package main 
+package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Hello World3") 
+var message string = "Hello World"
 
+func main(){
+
+	fmt.Println(message)
 }
-
-
+	
