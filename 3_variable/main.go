@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var name = "Anurag Aman"
+
 func main() {
 	var num int = 6
 	var num2 = 9 // agr ap type define nahi kroge to go khud type define kr dega
@@ -24,5 +26,6 @@ func main() {
 	fmt.Println(num4)
 	fmt.Println(num5)
 	fmt.Println(num6)
+	fmt.Println(name)
 
 }
