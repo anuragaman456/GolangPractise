@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	age := 10
+	age := 20
 
 	if age > 18 {
 		fmt.Println("Hello, Buddy You are an Adult")
